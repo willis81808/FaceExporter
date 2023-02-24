@@ -11,12 +11,14 @@ public class FaceExporter : BaseUnityPlugin
 {
     private const string ModId = "com.willis.rounds.face.exporter";
     private const string ModName = "Face Exporter";
-    private const string ModVersion = "1.0.0";
+    private const string ModVersion = "1.0.1";
     private const string CompatabilityModName = "FaceExporter";
 
     private void Start()
     {
         var harmony = new Harmony(ModId);
         harmony.PatchAll();
+
+        UnboundLib.Unbound.RegisterClientSideMod(ModId);
     }
 }
