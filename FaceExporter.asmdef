@@ -1,0 +1,20 @@
+{
+    "name": "FaceExporter",
+    "references": [
+        "UnboundLib",
+        "Unity.TextMeshPro"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "0Harmony.dll",
+        "Assembly-CSharp.dll",
+        "BepInEx.dll",
+        "InControl.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": []
+}
